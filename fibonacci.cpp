@@ -10,5 +10,5 @@ int main()
 		a=b;
 		b=s;
 	}
-	printf("%d",s);
+	printf("%d",a);
 }
