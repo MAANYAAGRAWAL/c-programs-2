@@ -5,7 +5,7 @@ int main()
 	int j,k;
 	for(j=0;j<7;j++)
 	{
-		for(k=0;k<7;k++)
+		for(k=j+1;k<7;k++)
 		{
 			if(a[j]==a[k])
 			printf("%d",a[k]);
